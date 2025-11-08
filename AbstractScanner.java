@@ -15,7 +15,7 @@ class AbstractScanner implements Scanner {
 
 	@Override
 	public String index() {
-        //some more change done from github
+        //some more change done from github now
 		return scanner.index();
 	}
 
