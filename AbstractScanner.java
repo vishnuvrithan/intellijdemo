@@ -38,6 +38,6 @@ class AbstractScanner implements Scanner {
     }
 
     public void vis2() {
-        System.out.println("this is a vis2");
+        System.out.println("this is a visfcgvh");
     }
 }
