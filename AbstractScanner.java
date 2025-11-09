@@ -33,4 +33,7 @@ class AbstractScanner implements Scanner {
     public void bug(){
         System.out.println("this is a bug");
     }
+    public void test2(){
+        System.out.println("this is a test2");
+    }
 }
