@@ -36,4 +36,7 @@ class AbstractScanner implements Scanner {
     public void test2(){
         System.out.println("this is a test2");
     }
+    public void test3(){
+        System.out.println("this is a test3");
+    }
 }
