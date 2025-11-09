@@ -27,4 +27,7 @@ class AbstractScanner implements Scanner {
         //this is test
 		return scanner.scan(cls);
 	}
+    public void test(){
+        System.out.println("this is a test");
+    }
 }
