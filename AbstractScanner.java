@@ -23,6 +23,7 @@ class AbstractScanner implements Scanner {
 
 	@Override
 	public List<Map.Entry<String, String>> scan(final ClassFile cls) {
-		return scanner.scan(cls);
+		//i will make changes
+        return scanner.scan(cls);
 	}
 }
