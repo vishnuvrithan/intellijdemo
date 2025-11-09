@@ -23,10 +23,14 @@ class AbstractScanner implements Scanner {
 
 	@Override
 	public List<Map.Entry<String, String>> scan(final ClassFile cls) {
-		//this is test
+		//i will make changes
+        //this is test
 		return scanner.scan(cls);
 	}
     public void test(){
         System.out.println("this is a test");
+    }
+    public void bug(){
+        System.out.println("this is a bug");
     }
 }
