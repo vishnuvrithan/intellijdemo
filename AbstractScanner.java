@@ -27,4 +27,21 @@ class AbstractScanner implements Scanner {
         //this is test
 		return scanner.scan(cls);
 	}
+    public void test(){
+        System.out.println("this is a test");
+    }
+    public void tester(){
+        System.out.println("this is a test");
+    }
+    public void bug(){
+        System.out.println("this is a bug");
+    }
+    public void test2(){
+        System.out.println("this is a test2");
+    }
+    public void test3(){
+        System.out.println("this is a test3");
+    }
+    public void vis(){ System.out.println("this is a vis1");}
+    public void vis2(){ System.out.println("this is a vis2");}
 }
