@@ -28,10 +28,10 @@ class AbstractScanner implements Scanner {
 		return scanner.scan(cls);
 	}
     public void test(){
-        System.out.println("this is a test");
+        System.out.println("this is a tested");
     }
     public void tester(){
-        System.out.println("this is a test");
+        System.out.println("this is a tested");
     }
     public void bug(){
         System.out.println("this is a bug");
@@ -42,6 +42,6 @@ class AbstractScanner implements Scanner {
     public void test3(){
         System.out.println("this is a test3");
     }
-    public void vis(){ System.out.println("this is a vis1");}
+    public void vis(){ System.out.println("this is a vis5");}
     public void vis2(){ System.out.println("this is a vis2");}
 }
